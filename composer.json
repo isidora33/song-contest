@@ -1,0 +1,19 @@
+{
+    "name": "isidora/song-contest",
+    "description": "A simple API for a song contest",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Isidora\\SongContest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "isidora33",
+            "email": "isidoravuckovic3@gmail.com"
+        }
+    ]
+}

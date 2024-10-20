@@ -1,0 +1,11 @@
+{
+    "testUser": {
+        "password": "$2y$10$QHdy0zVbCS3uVPhCNA6Q.e1V1tnZkQVSLXhSGFDPU\/lNh54sDEIuu"
+    },
+    "": {
+        "password": "$2y$10$jluC0Ky6xY.CpdmeSsydougEDi6Q0DfPN4hvJRYomz0rRBnlA0EnO"
+    },
+    "testUser1": {
+        "password": "$2y$10$kuXIjgZ\/G\/4JmTuqTiValuhebzFfTUsHQvVMCsljj5j27vkfTG7eC"
+    }
+}

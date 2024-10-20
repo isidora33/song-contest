@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Song Contest API",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

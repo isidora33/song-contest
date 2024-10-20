@@ -1,0 +1,19 @@
+meta {
+  name: Submit Song
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:8000/song
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "My Song",
+    "artist": "Artist Name 1"
+  }
+  
+}
