@@ -39,17 +39,18 @@ class UserManager
 
     public function login($username, $password)
     {
-
         $users = $this->loadUsers();
+
 
         if (!isset($users[$username])) {
             $this->logger->error("Pokušaj prijave sa nepostojećim korisničkim imenom: $username");
-            return "Korisnicko ime nije pronadjeno";
+            return resp_json("Uneli ste pogresno korisnicko ime ili sifru", 400);
         }
 
         if (password_verify($password, $users[$username]['password'])) {
             session_start();
             $_SESSION['username'] = $username;
+            $_SESSION['loggedin'] = true;
             $this->logger->info("Korisnik uspešno prijavljen: $username");
             return "Prijava uspešna!";
         } else {
@@ -57,6 +58,7 @@ class UserManager
             return "Neispravna lozinka!";
         }
     }
+
 
     public function loadUsers()
     {
@@ -70,5 +72,15 @@ class UserManager
     private function saveUsers($users)
     {
         file_put_contents($this->usersFile, json_encode($users, JSON_PRETTY_PRINT));
+    }
+
+    public function logout()
+    {
+
+        $_SESSION = [];
+
+        session_destroy();
+
+        return 'Uspešno ste se odjavili';
     }
 }

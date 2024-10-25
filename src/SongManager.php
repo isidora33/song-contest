@@ -21,7 +21,7 @@ class SongManager
         session_start();
         if (!isset($_SESSION['username'])) {
             $this->logger->warning("Pokušaj unosa pesme bez prijave");
-            return "Morate biti prijavljeni da biste uneli pesmu!";
+            return resp_json("Morate biti prijavljeni da biste uneli pesmu!", 401);
         }
 
         $songs = $this->loadSongs();

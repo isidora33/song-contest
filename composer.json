@@ -8,7 +8,10 @@
     "autoload": {
         "psr-4": {
             "Isidora\\SongContest\\": "src/"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "authors": [
         {

@@ -7,5 +7,26 @@
     },
     "testUser1": {
         "password": "$2y$10$kuXIjgZ\/G\/4JmTuqTiValuhebzFfTUsHQvVMCsljj5j27vkfTG7eC"
+    },
+    "testUser2": {
+        "password": "$2y$10$qpiZ\/kL5ZDMalK5utsR6hOFLMaYoBQo8\/yWpKc7mnI1OUmehNMunG"
+    },
+    "testUser3": {
+        "password": "$2y$10$291eUlceoZqggxzbxmQ2BuWahpW07cEzhct\/.Bzhto2.n8SInfg52"
+    },
+    "testUser4": {
+        "password": "$2y$10$\/E30fHrzTMjWbE0v.ongteOS2qj8IygVsg.9omHewK12QIoStm7ei"
+    },
+    "testUser5": {
+        "password": "$2y$10$p3pzz6dZMp5WsHP\/ECCPkOEkpy3Ft8KObEdpyLVUOatQffRL8WUeK"
+    },
+    "testUser6": {
+        "password": "$2y$10$WAduLWOSvSrIiN8BhOrDP.YR633Pha98jotMjRnEPOt9k6jlu4ZCq"
+    },
+    "testUser7": {
+        "password": "$2y$10$AmA\/r0OeSAU1wzrW3F3GleS1BwxJo8GAFpmO9\/3PGL6QNQ0.X\/nc."
+    },
+    "testUser8": {
+        "password": "$2y$10$qPbfevaDM61mtdsgiEKE7unCIGYDtD0YcaPYLIh028wsaNVF2LHtW"
     }
 }
